@@ -17,7 +17,6 @@ If you need the class on AdvancedStories just take it from the 'Api' folder, I c
 		</ul>
 	</li>
 </ul>
-<br>
 <h2>Contributing</h2>
 See Issues tab to find good starting issues to work on. If you have an addition you would like to make, please do not hesitate to make a pull request!
 
