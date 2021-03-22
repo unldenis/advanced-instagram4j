@@ -1,2 +1,2 @@
 # advanced-instagram4j
-<h2> API extension for Instagram's private api (Android emulation)
+<a href="https://github.com/instagram4j/instagram4j">Instagram4j</a> API extension for Instagram's private api (Android emulation)
