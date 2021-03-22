@@ -3,6 +3,7 @@
 <br><br>
 <h2>Overview</h2>
 This repositery was created to implement and simplify several Instagram4j features. I suggest you go and look at the documentation from their page first then!
+If you need the class on AdvancedStories just take it from the 'Api' folder, I chose to publish only the classes for optimization purposes.
 <br>
 <h2>Quick Usage</h2>
 <ul>
