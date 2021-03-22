@@ -13,4 +13,6 @@
 		</ul>
 	</li>
 </ul>
-<h4><a href="https://github.com/unldenis/advanced-instagram4j/blob/main/Api/AdvancedStories.java">AdvancedStories</a></h4>
+<h1>Contributing</h1>
+See Issues tab to find good starting issues to work on. If you have an addition you would like to make, please do not hesitate to make a pull request!
+
