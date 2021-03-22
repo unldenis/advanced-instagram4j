@@ -3,6 +3,7 @@
 <br><br>
 <h2>Quick Usage</h2>
 <h4><a href="https://github.com/unldenis/advanced-instagram4j/blob/main/Api/AdvancedStories.java">AdvancedStories</a></h4>
+//Print all urls of user stories<br>
 AdvancedStories stories = new AdvancedStories(client);<br>
 stories.loadUserStoriesUrl("user"); <br>
 for(String k : stories.getStories().keySet())<br>      	
