@@ -6,4 +6,4 @@
 AdvancedStories stories = new AdvancedStories(client);<br>
 stories.loadUserStoriesUrl("user"); <br>
 for(String k : stories.getStories().keySet())<br>      	
-  System.out.println(stories.getStories().get(k)==1 ? "Image->"+k : "Video->" + k);<br>
+&nbsp&nbspSystem.out.println(stories.getStories().get(k)==1 ? "Image->"+k : "Video->" + k);<br>
