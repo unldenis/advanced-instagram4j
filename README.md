@@ -7,7 +7,7 @@ This repositery was created to implement and simplify several Instagram4j featur
 <ul>
 	<li>Features
 		<ul>
-			<li><a href="https://github.com/unldenis/advanced-instagram4j/blob/main/Api/AdvancedStories.java">AdvancedStories</a>
+			<li>AdvancedStories
 				<ul>
 					<li>Example <a href="https://github.com/unldenis/advanced-instagram4j/blob/main/Examples/exAdvancedStories.java">here</a>.</li>
 				</ul>
