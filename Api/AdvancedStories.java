@@ -105,7 +105,7 @@ public class AdvancedStories {
 	        sentence.indexOf(secondWord));
 	}
 	/**
-	 * Get stories we uploaded earlier
+	 * Get stories we loaded earlier
 	 * @return List of Story
 	 * @since 0.1
 	 */
