@@ -9,8 +9,8 @@ public class exAdvancedStories {
 		IGClient client = null ;
         try {
             client = IGClient.builder()
-                    .username("username")
-                    .password("password")
+                    .username("denisbbaby")
+                    .password("mischles1")
                     .login();
         } catch (IGLoginException e) {
             e.printStackTrace();
@@ -19,7 +19,7 @@ public class exAdvancedStories {
         
         AdvancedStories stories = new AdvancedStories(client);  
         //The user MUST be followed by us
-        stories.loadStoriesUrl("user"); 
+        stories.loadStoriesUrl("alberto.panzino"); 
         //Print all images stories urls of user
         for(Story s : stories.getStories()) 
         	if(s.isImage())
@@ -33,7 +33,10 @@ public class exAdvancedStories {
         	System.out.println(s.getUser().getUsername() + "->" + s.getUrl());
         
         
+        
         System.out.println("End");
+        
+               
       
 	}
 	
