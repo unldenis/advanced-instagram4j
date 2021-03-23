@@ -28,7 +28,8 @@ public class AdvancedStories {
 	 * @param username username from which get the stories
 	 * @since 0.1
 	 */
-	public void loadStoriesUrl(String username) {	
+	public void loadStoriesUrl(String username) {
+		fin.clear();
 		List<Reel> reels = new ArrayList<>();
         new FeedReelsTrayRequest().execute(client)
         	.thenAccept(response -> {
@@ -64,6 +65,7 @@ public class AdvancedStories {
 	 * @since 0.1
 	 */
 	public void loadStoriesUrl(int lastN) {
+		fin.clear();
 		List<Reel> reels = new ArrayList<>();
         new FeedReelsTrayRequest().execute(client)
         	.thenAccept(response -> {
@@ -71,7 +73,7 @@ public class AdvancedStories {
         }).join();
         String s = "";
 		
-        for(int y=0;y<lastN-1;y++) {
+        for(int y=0;y<lastN;y++) {
         	Reel reel = reels.get(y);
     		for(int j = 0; j<reel.getMedia_count(); j++) {    
     			s = reel.getMedia_ids()[j]+"_"+reel.getUser().getPk();        		
