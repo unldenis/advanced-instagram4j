@@ -17,12 +17,23 @@ public class exAdvancedStories {
         }
         
         
-        AdvancedStories stories = new AdvancedStories(client);
+        AdvancedStories stories = new AdvancedStories(client);  
         //The user MUST be followed by us
-        stories.loadUserStoriesUrl("user"); 
-        //Print all urls of user stories
-        for(String k : stories.getStories().keySet())         	
-        	System.out.println(stories.getStories().get(k)==1 ? "Image->"+k : "Video->" + k);
+        stories.loadStoriesUrl("user"); 
+        //Print all images stories urls of user
+        for(Story s : stories.getStories()) 
+        	if(s.isImage())
+        		System.out.println(s);
+        
+        
+        //Load stories of the newest first 5 users to post a story
+        stories.loadStoriesUrl(5); 
+        //Print all usernames and urls loaded
+        for(Story s : stories.getStories()) 
+        	System.out.println(s.getUser().getUsername() + "->" + s.getUrl());
+        
+        
+        System.out.println("End");
       
 	}
 	
