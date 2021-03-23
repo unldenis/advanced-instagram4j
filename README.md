@@ -14,6 +14,11 @@ If you need the class on AdvancedStories just take it from the 'Api' folder, I c
 					<li>Example <a href="https://github.com/unldenis/advanced-instagram4j/blob/main/Examples/exAdvancedStories.java">here</a>.</li>
 				</ul>
 			</li>
+			<li>AdvancedUser
+				<ul>
+					<li>Example <a href="https://github.com/unldenis/advanced-instagram4j/blob/main/Examples/exAdvancedUser.java">here</a>.</li>
+				</ul>
+			</li>
 		</ul>
 	</li>
 </ul>
