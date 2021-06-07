@@ -1,5 +1,5 @@
 # advanced-instagram4j
-<a href="https://github.com/instagram4j/instagram4j">Instagram4j</a> API extension for Instagram's private api (Android emulation)
+# <a href="https://github.com/instagram4j/instagram4j">Instagram4j</a> API extension for Instagram's private api (Android emulation)
 <br><br>
 <h2>Overview</h2>
 This repositery was created to implement and simplify several Instagram4j features. I suggest you go and look at the documentation from their page first then!
